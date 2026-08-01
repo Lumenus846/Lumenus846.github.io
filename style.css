@@ -1,1 +1,6 @@
-
+.flex-container {
+  display: flex;
+  align-items: center;     /* Centers the image vertically */
+  justify-content: center; /* Centers the image horizontally */
+  height: 2000px;           /* Requires a defined container height */
+}
