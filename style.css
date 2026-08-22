@@ -3,10 +3,3 @@
   flex-wrap: wrap;     /* Allows items to move to the next row */
   gap: 16px;           /* Adds a 16px space between columns and rows */
 }
-
-.image-stack img {
-  /* Calculates exactly 50% width minus half of the total row gap */
-  width: calc(50% - 8px); 
-  height: auto;        /* Maintains the image aspect ratio */
-  object-fit: cover;   /* Ensures images don't distort if given fixed heights */
-}
