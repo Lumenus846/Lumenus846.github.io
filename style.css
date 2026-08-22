@@ -1,5 +1,6 @@
 .image-stack {
-  display: grid;
-  grid-template-columns: 1fr; /* Creates a single vertical column */
-  row-gap: 15px;              /* Adds spacing between rows */
+  display: flex;
+  flex-direction: column; /* Forces vertical stacking */
+  gap: 10px;              /* Adds spacing between images */
+  align-items: center;    /* Optional: Centers the images horizontally */
 }
