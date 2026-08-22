@@ -1,6 +1,5 @@
-.flex-container {
-  display: flex;
-  align-items: center;     /* Centers the image vertically */
-  justify-content: center; /* Centers the image horizontally */
-  height: 2000px;           /* Requires a defined container height */
+.image-stack {
+  display: grid;
+  grid-template-columns: 1fr; /* Creates a single vertical column */
+  row-gap: 15px;              /* Adds spacing between rows */
 }
