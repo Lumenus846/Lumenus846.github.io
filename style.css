@@ -1,6 +1,5 @@
 .image-stack {
   display: flex;
-  flex-direction: column; /* Forces vertical stacking */
-  gap: 10px;              /* Adds spacing between images */
-  align-items: center;    /* Optional: Centers the images horizontally */
+  flex-direction: column;
+  gap: 10px;
 }
